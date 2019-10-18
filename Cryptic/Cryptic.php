@@ -30,7 +30,7 @@
 		}
 
 	if($error1&&$error2&&$error3 === "Correct!") {
-			header("location:../Shift/Shift.php");
+			header("location:../Shift/Shift.html");
 		} else {
 		}
 	}
