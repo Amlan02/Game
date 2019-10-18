@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#emptycontainer {
+  margin: 20px auto;
+  width: 100%;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.container-statues {
+  height: 485px;
+}
+
+.statue-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border: 1px dotted lightgrey;
+  border-radius: 10px;
+}
+
+.statue {
+  display: inline-block;
+  margin: 10px auto;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+#Red {
+  background-color: red;
+}
+
+#Blue {
+  background-color: blue;
+}
+
+#Gold {
+  background-color: gold;
+}
+
+#Green {
+  background-color: green;
+}
+
+#Violet {
+  background-color: violet;
+}
+
+#id0 {
+  left: 338px;
+}
+
+#id1 {
+  left: 150px;
+}
+
+
+#id2 {
+  left: 525px;
+  top: -120px;
+}
+
+
+#id3 {
+  left: 200px;
+  top: -60px;
+
+}
+
+
+#id4 {
+  left: 460px;
+  top: -183px;
+}
