@@ -6,7 +6,7 @@
 
 		if($_POST['InputPswd'] == "Amsterdam") {
 
-			header("location:Cryptic.php");
+			header("location:../Cryptic/Cryptic.php");
 		} else {
 			$error = "Incorrect Password!";
 		}
@@ -25,9 +25,9 @@
  	<meta name="game" content="The Game">
   	<meta name="Amlan" content="SitePoint">
 
-  	<link rel="stylesheet" type="text/css" href="./css/index.css">
+  	<link rel="stylesheet" type="text/css" href="../css/index.css">
   	<link rel="stylesheet" type="text/css" href="./css/location.css">
-  	<script src="./js/main.js" type="text/javascript"></script>
+  	<script src="../js/main.js" type="text/javascript"></script>
 
   	<link href='https://fonts.googleapis.com/css?family=Just Another Hand' rel='stylesheet'>
   	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>

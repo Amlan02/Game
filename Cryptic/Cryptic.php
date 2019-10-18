@@ -30,7 +30,7 @@
 		}
 
 	if($error1&&$error2&&$error3 === "Correct!") {
-			header("location:WorkInProgress.html");
+			header("location:../WorkInProgress.html");
 		} else {
 		}
 	}
@@ -48,9 +48,8 @@
  	<meta name="game" content="The Game">
   	<meta name="Amlan" content="SitePoint">
 
-  	<link rel="stylesheet" type="text/css" href="./css/index.css">
-  	<link rel="stylesheet" type="text/css" href="./css/location.css">
-  	<script src="./js/main.js" type="text/javascript"></script>
+  	<link rel="stylesheet" type="text/css" href="../css/index.css">
+  	<script src="../js/main.js" type="text/javascript"></script>
 
   	<link href='https://fonts.googleapis.com/css?family=Just Another Hand' rel='stylesheet'>
   	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
