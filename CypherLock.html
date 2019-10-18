@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+ 	<meta charset="utf-8">
+
+	<title>GAME</title>
+ 	<meta name="game" content="The Game">
+  	<meta name="Amlan" content="SitePoint">
+
+  	<link rel="stylesheet" type="text/css" href="./css/index.css">
+  	<script src="./js/main.js" type="text/javascript"></script>
+  	<script src="./js/checkPswd.js" type="text/javascript"></script>
+
+  	<link href='https://fonts.googleapis.com/css?family=Just Another Hand' rel='stylesheet'>
+  	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+</head>
+
+<body>
+
+	<div id="container">
+
+		<p id="game-text">
+			You follow the directions and reach the house.<br>
+			Upon reaching the front door you notice the door is locked with a cypher lock.<br>
+			<br>
+		</p>
+
+		<img src="./img/CypherLock.jpeg">
+		<br>
+
+		<form autocomplete="off" onSubmit="return checkPswd();">
+			<div><p id="game-text">Please enter the right code</p></div>
+			<div>
+				<input type="text" id="pswd">
+			</div>
+			<div>
+				<button type="submit" class="button" value="Submit">Submit</button>
+			</div>
+		</form>
+
+		<div style="text-align: left;">
+			<button type="button" id="back-button" onclick="goBack()">
+			&#9754</button>
+		</div>
+
+	</div>
+</body>
+</html>
