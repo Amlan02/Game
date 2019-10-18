@@ -33,9 +33,9 @@
 		4°53'42.6"E
 	</div>
 
-	<div style="text-align: left;">
-		<button type="button" id="back-button" onclick="goBack()">&#9754</button>
-	</div>
+  <div style="display: inline-block;">
+    <button type="button" class="button" onclick="goBack()">Back</button>
+  </div>
 
 </div>
 

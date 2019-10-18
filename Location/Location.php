@@ -2,7 +2,7 @@
 
 	$error = "";
 
-	if(isset($_POST['pswdSubmit'])) {
+	if(isset($_POST['submit'])) {
 
 		if($_POST['InputPswd'] == "Amsterdam") {
 
@@ -53,17 +53,18 @@
 
 		<form method="POST" autocomplete="off">
 			<div><input type="text" name="InputPswd"></div>
-			<div>
-				<button name="pswdSubmit" type="submit" class="button" value="Submit">Submit</button>
+
+			<div style="display: inline-block;">
+  			<button type="button" class="button" onclick="goBack()">Back</button>
+  		</div>
+
+			<div style="display: inline-block;">
+				<button type="submit" class="button" name="submit" value="Submit">Submit</button>
 			</div>
+
 		</form>
 
 		<p id="pswdAlert"><?= $error ?></p>
-
-		<div style="text-align: left;">
-			<button type="button" id="back-button" onclick="goBack()">
-			&#9754</button>
-		</div>
 
 	</div>
 

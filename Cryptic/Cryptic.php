@@ -91,16 +91,16 @@
 			<div><input type="text" name="ThirdInput"></div>
 			<p id="pswdAlert"><?= $error3 ?></p>
 
-			<div>
+			<div style="display: inline-block;">
+				<button type="button" class="button" onclick="goBack()">Back</button>
+			</div>
+
+			<div style="display: inline-block;">
 				<button name="pswdSubmit" type="submit" class="button" value="Submit">Submit</button>
 			</div>
 
 		</form>
 
-		<div style="text-align: left;">
-			<button type="button" id="back-button" onclick="goBack()">
-			&#9754</button>
-		</div>
 
 	</div>
 
