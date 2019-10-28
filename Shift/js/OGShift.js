@@ -21,25 +21,22 @@ function check() {
   let result = 0;
   let containers = document.querySelectorAll('.statue-container');
 
-  if(containers[0].id.split('id')[1] == 0 && containers[0].children[0].id == "Red") {
-    result += 1;
-    console.log(result);
+  if(containers[0].children != null) {
+    if(containers[0].id.split('id')[1] == 0 && containers[0].children[0].id == "Red") {
+      result += 1;
+    }
   }
   if(containers[1].id.split('id')[1] == 1 && containers[1].children[0].id == "Gold") {
     result += 1;
-    console.log(result);
   }
   if(containers[2].id.split('id')[1] == 2 && containers[2].children[0].id == "Green") {
     result += 1;
-    console.log(result);
   }
   if(containers[3].id.split('id')[1] == 3 && containers[3].children[0].id == "Violet") {
     result += 1;
-    console.log(result);
   }
   if(containers[4].id.split('id')[1] == 4 && containers[4].children[0].id == "Blue") {
     result += 1;
-    console.log(result);
   }
 
   if(result == 5) {
