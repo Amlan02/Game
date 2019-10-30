@@ -34,8 +34,12 @@ body {
   height: 100px;
 }
 
-.statue:hover {
-  cursor: pointer;
+.statue-message {
+  margin-top: 100px;
+  display: block;
+  font-size: 25px;
+  background-color: grey;
+  visibility: hidden;
 }
 
 #Red {

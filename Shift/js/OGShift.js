@@ -21,8 +21,6 @@ function check() {
   let result = 0;
   let containers = document.querySelectorAll('.statue-container');
 
-  console.log(containers);
-
   if(containers[0].children.length > 0) {
     if(containers[0].id.split('id')[1] == 0 && containers[0].children[0].id == "Red") {
       result += 1;

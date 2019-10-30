@@ -16,6 +16,7 @@
   	<link href='https://fonts.googleapis.com/css?family=Just Another Hand' rel='stylesheet'>
   	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 
+
 </head>
 
 <body>
@@ -24,13 +25,21 @@
 
     <div id='emptycontainer' ondrop='drop(event)' ondragover='allowDrop(event)'>
 
-      <div class='statue' id='Red' draggable='true' ondragstart='drag(event)' onmouseover='mouseOver(this)'>
-        <div class='uitleg-text'>Bladiebladiebla</div>
+      <div class='statue' id='Red' draggable='true' ondragstart='drag(event)'>
+        <div class='statue-message'>True North</div>
       </div>
-      <div class='statue' id='Blue' draggable='true' ondragstart='drag(event)' onmouseover='mouseOver(this)'></div>
-      <div class='statue' id='Gold' draggable='true' ondragstart='drag(event)' onmouseover='mouseOver(this)'></div>
-      <div class='statue' id='Green' draggable='true' ondragstart='drag(event)' onmouseover='mouseOver(this)'></div>
-      <div class='statue' id='Violet' draggable='true' ondragstart='drag(event)' onmouseover='mouseOver(this)'></div>
+      <div class='statue' id='Blue' draggable='true' ondragstart='drag(event)'>
+        <div class='statue-message'>Next to Violet</div>
+      </div>
+      <div class='statue' id='Gold' draggable='true' ondragstart='drag(event)'>
+        <div class='statue-message'>West of Green</div>
+      </div>
+      <div class='statue' id='Green' draggable='true' ondragstart='drag(event)'>
+        <div class='statue-message'>Next to Blue</div>
+      </div>
+      <div class='statue' id='Violet' draggable='true' ondragstart='drag(event)'>
+        <div class='statue-message'>South of Yellow</div>
+      </div>
 
     </div>
 
